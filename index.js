@@ -23,8 +23,8 @@ app.post('/api/greetings', async (req, res) => {
     const greeting = req.body.greeting;
     const language = req.body.language;
     res.json({
-        greeting,
-        language
+        status : 'success',
+        message : `Added a greeting for ${language}`
     });
 });
 

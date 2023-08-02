@@ -1,4 +1,4 @@
-POST http://localhost:3008/api/greetings
+POST https://sqlite-101-fzut.onrender.com/api/greetings
     Content-Type: application/json
         
 {
